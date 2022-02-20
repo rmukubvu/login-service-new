@@ -1,0 +1,7 @@
+mongodatabase:
+  uri: mongodb://amakosiauth:Aisha2010#@docdb-2022-02-14-11-42-21.cluster-crc7vhg6vjas.us-east-1.docdb.amazonaws.com:27017/?ssl=true&ssl_ca_certs=rds-combined-ca-bundle.pem&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false
+  dev: mongodb://localhost:27017
+  prod-public: mongodb+srv://doadmin:9B23m5E4AD8rKP70@db-mongodb-nyc3-12123-bb9e08a2.mongo.ondigitalocean.com/admin?authSource=admin&replicaSet=db-mongodb-nyc3-12123&tls=true&tlsCAFile=ca-certificate.crt
+  prod-vpc: mongodb+srv://doadmin:9B23m5E4AD8rKP70@db-mongodb-nyc3-12123-6cce5a90.mongo.ondigitalocean.com/admin?authSource=admin&replicaSet=db-mongodb-nyc3-12123&tls=true&tlsCAFile=ca-certificate.crt
+webserver:
+    port: 8084
